@@ -50,6 +50,7 @@ Example command to start training:
 6. **View results**
 - Output images and predictions will be saved in the `runs/detect/` folder.
 
+```
 📊 Results
 * Accuracy: ~XX% (replace with your mAP or precision if known)
 * Sample detection:
