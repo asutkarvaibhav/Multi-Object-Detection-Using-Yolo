@@ -28,35 +28,40 @@ This project implements real-time multi-object detection using the YOLO (You Onl
 └── results/               # Sample output images/videos
 
 
-🚀 Getting Started
-Clone the Repository
+## 🚀 Getting Started
 
-bash
-Copy
-Edit
-git clone https://github.com/asutkarvaibhav/Multi-Object-Detection-Using-Yolo.git
-cd Multi-Object-Detection-Using-Yolo
-Install Dependencies
+Follow these steps to set up and run the project:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Download/Prepare Dataset
+1. **Clone the repository**
 
-Place your images and corresponding labels in the data/ directory.
+2. **Install required libraries**
+Make sure you have Python 3.7+ installed, then run:
 
-If using a custom dataset, ensure it follows YOLO annotation format.
+3. **Prepare the dataset**
+- Place training and validation images in a directory (e.g., `data/images/`).
+- Make sure annotations are in YOLO format inside `data/labels/`.
+- Update the `data.yaml` file with the correct paths and class names.
 
-Train the Model
+4. **Train the YOLO model**
+Example command to start training:
 
-bash
-Copy
-Edit
-python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt
-Run Inference
+5. **Run inference on test images or videos**
 
-bash
-Copy
-Edit
-python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source data/test/
+6. **View results**
+- Output images and predictions will be saved in the `runs/detect/` folder.
+
+📊 Results
+* Accuracy: ~XX% (replace with your mAP or precision if known)
+* Sample detection:
+<img src="results/sample_output.jpg" width="600"/>
+
+⚙️ Tools & Frameworks
+* Python 🐍
+* YOLOv5 / YOLOv8
+* OpenCV
+* PyTorch
+*LabelImg (for annotation)
+
+**Created by Vaibhav Asutkar**
+
+
