@@ -15,6 +15,8 @@ This project implements real-time multi-object detection using the YOLO (You Onl
 
 ---
 
+## Dataset Link : https://www.kaggle.com/datasets/mohamedgobara/26-class-object-detection-dataset  
+
 ## 📂 Project Structure
 
 ```bash
