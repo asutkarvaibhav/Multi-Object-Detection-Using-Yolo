@@ -10,7 +10,7 @@ This project implements real-time multi-object detection using the YOLO (You Onl
 
 - Detects multiple objects in a single image/frame.
 - Built using **YOLOv5 / YOLOv8** (depending on version used).
-- Trained and evaluated on custom or standard datasets (e.g., COCO, VOC, or custom labeled images).
+- Trained and evaluated on custom or standard datasets .
 - Includes annotated datasets, training scripts, and model evaluation.
 
 ---
@@ -54,7 +54,7 @@ Example command to start training:
 
 ```
 📊 Results
-* Accuracy: ~XX% (replace with your mAP or precision if known)
+* Accuracy: ~XX% 
 * Sample detection:
 <img src="results/sample_output.jpg" width="600"/>
 
